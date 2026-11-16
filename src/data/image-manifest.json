@@ -1,0 +1,511 @@
+{
+  "images": [
+    {
+      "id": "hero-knit-set",
+      "file": "/images/editorial/hero-knit-set.jpg",
+      "group": "editorial",
+      "width": 1800,
+      "height": 2250,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-wearing-a-beige-sweater-and-pants-rz3sw-8VNCw",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in a beige knitted raglan sweater and matching trousers looks down, in front of a brown wood-panelled wall.",
+      "note": "Cropped to 4:5 from the 3000x2250 original.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "home:hero",
+        "product:raglan-pique-sweater"
+      ]
+    },
+    {
+      "id": "set-home-landscape",
+      "file": "/images/set/home-hero-landscape.jpg",
+      "group": "set",
+      "width": 2400,
+      "height": 1500,
+      "source": "generated",
+      "license": "Own work",
+      "alt": "",
+      "note": "Still of the project's own 3D set at the home hero shot, captured from the canvas with the DOM hidden. Recapture after changing the set, light or hero shot.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "fallback:home"
+      ]
+    },
+    {
+      "id": "set-home-portrait",
+      "file": "/images/set/home-hero-portrait.jpg",
+      "group": "set",
+      "width": 1200,
+      "height": 2400,
+      "source": "generated",
+      "license": "Own work",
+      "alt": "",
+      "note": "Portrait crop of the same still, for phones.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "fallback:home"
+      ]
+    },
+    {
+      "id": "collared-knit-polo-01",
+      "file": "/images/products/collared-knit-polo-01.jpg",
+      "group": "products",
+      "width": 1800,
+      "height": 2250,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/woman-in-beige-loungewear-looking-out-window-DSKNz2MZWW4",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in an oat-coloured knitted polo and matching trousers stands side-on by a wood-panelled wall, one hand on a sofa.",
+      "note": "Cropped to 4:5 from the 3000x2250 original.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:collared-knit-polo"
+      ]
+    },
+    {
+      "id": "collared-knit-polo-02",
+      "file": "/images/products/collared-knit-polo-02.jpg",
+      "group": "products",
+      "width": 1286,
+      "height": 1607,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/woman-in-beige-loungewear-looking-out-window-DSKNz2MZWW4",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "Closer view of the oat knitted polo: open collar, placket and long sleeve.",
+      "derivedFrom": "collared-knit-polo-01",
+      "note": "Detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:collared-knit-polo"
+      ]
+    },
+    {
+      "id": "ruffle-neck-sweater-01",
+      "file": "/images/products/ruffle-neck-sweater-01.jpg",
+      "group": "products",
+      "width": 1800,
+      "height": 2250,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-wearing-a-white-ruffled-sweater-stands-indoors-1dOVR-g30-o",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in an ivory sweater with a short gathered ruffle at the neck leans against a wood-panelled wall.",
+      "note": "Cropped to 4:5 from the 3000x2250 original.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:ruffle-neck-sweater"
+      ]
+    },
+    {
+      "id": "ruffle-neck-sweater-02",
+      "file": "/images/products/ruffle-neck-sweater-02.jpg",
+      "group": "products",
+      "width": 1286,
+      "height": 1607,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-wearing-a-white-ruffled-sweater-stands-indoors-1dOVR-g30-o",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "Closer view of the ivory sweater: the gathered ruffle neck and raglan shoulder.",
+      "derivedFrom": "ruffle-neck-sweater-01",
+      "note": "Detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:ruffle-neck-sweater"
+      ]
+    },
+    {
+      "id": "sleeveless-silk-shirt-01",
+      "file": "/images/products/sleeveless-silk-shirt-01.jpg",
+      "group": "products",
+      "width": 2100,
+      "height": 2625,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-young-woman-in-a-white-sleeveless-shirt-g4nUezDE0Yg",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in a white sleeveless silk shirt with a pointed collar stands in front of a pale wall.",
+      "note": "Cropped to 4:5 from the 3500x2625 original.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:sleeveless-silk-shirt"
+      ]
+    },
+    {
+      "id": "sleeveless-silk-shirt-02",
+      "file": "/images/products/sleeveless-silk-shirt-02.jpg",
+      "group": "products",
+      "width": 1313,
+      "height": 1641,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-young-woman-in-a-white-sleeveless-shirt-g4nUezDE0Yg",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "Closer view of the white silk shirt: collar, button placket and armhole.",
+      "derivedFrom": "sleeveless-silk-shirt-01",
+      "note": "Detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:sleeveless-silk-shirt"
+      ]
+    },
+    {
+      "id": "statement-cardigan",
+      "file": "/images/editorial/statement-cardigan.jpg",
+      "group": "editorial",
+      "width": 900,
+      "height": 1125,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/couple-in-matching-beige-loungewear-in-a-library-6mfBuNAC-g0",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in an oat ribbed cardigan with horn-coloured buttons, in a dark wood-panelled room.",
+      "note": "Tight crop of one figure from a 3000x2250 two-person frame, kept clear of the bookshelf (legible titles). 900x1125: only for small placements.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "home:statement"
+      ]
+    },
+    {
+      "id": "gathered-silk-blouse-01",
+      "file": "/images/products/gathered-silk-blouse-01.jpg",
+      "group": "products",
+      "width": 2100,
+      "height": 2625,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/woman-in-satin-pajamas-posing-in-a-room-nGND8cvV2S4",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in a rose-taupe silk satin blouse with a frilled neckband and matching trousers stands in a pale panelled room.",
+      "note": "Cropped to 4:5 from the 3500x2625 original.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:gathered-silk-blouse"
+      ]
+    },
+    {
+      "id": "gathered-silk-blouse-02",
+      "file": "/images/products/gathered-silk-blouse-02.jpg",
+      "group": "products",
+      "width": 1313,
+      "height": 1641,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/woman-in-satin-pajamas-posing-in-a-room-nGND8cvV2S4",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "Closer view of the satin blouse: frilled neckband, raglan sleeve and gathered cuff.",
+      "derivedFrom": "gathered-silk-blouse-01",
+      "note": "Detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:gathered-silk-blouse"
+      ]
+    },
+    {
+      "id": "smocked-silk-dress-01",
+      "file": "/images/products/smocked-silk-dress-01.jpg",
+      "group": "products",
+      "width": 2100,
+      "height": 2625,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-in-a-white-nightgown-stands-by-a-door-FUTZOelDXTI",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in a long white silk dress with a lace-trimmed yoke and full sleeves stands by a white panelled door.",
+      "note": "Cropped to 4:5 from the 3500x2625 original.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:smocked-silk-dress"
+      ]
+    },
+    {
+      "id": "smocked-silk-dress-02",
+      "file": "/images/products/smocked-silk-dress-02.jpg",
+      "group": "products",
+      "width": 1313,
+      "height": 1641,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-in-a-white-nightgown-stands-by-a-door-FUTZOelDXTI",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "Closer view of the white dress: pintucked yoke with a lace band and three buttons.",
+      "derivedFrom": "smocked-silk-dress-01",
+      "note": "Detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:smocked-silk-dress"
+      ]
+    },
+    {
+      "id": "silk-wrap-robe-01",
+      "file": "/images/products/silk-wrap-robe-01.jpg",
+      "group": "products",
+      "width": 1555,
+      "height": 1944,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-in-a-silk-robe-sits-on-a-couch-wzkU0TJpBwQ",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in a shell-coloured silk satin wrap robe with lace edging sits on a cream boucle sofa.",
+      "note": "Cropped to 4:5 from the 2592x1944 original.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:silk-wrap-robe"
+      ]
+    },
+    {
+      "id": "silk-wrap-robe-02",
+      "file": "/images/products/silk-wrap-robe-02.jpg",
+      "group": "products",
+      "width": 1296,
+      "height": 1620,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-in-a-silk-robe-sits-on-a-couch-wzkU0TJpBwQ",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "Closer view of the satin robe: lace-edged front, tie belt and sleeve.",
+      "derivedFrom": "silk-wrap-robe-01",
+      "note": "Detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:silk-wrap-robe"
+      ]
+    },
+    {
+      "id": "silk-slip-dress-01",
+      "file": "/images/products/silk-slip-dress-01.jpg",
+      "group": "products",
+      "width": 1555,
+      "height": 1944,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/woman-in-a-black-dress-poses-elegantly-bQ9Mmmohx-U",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in a black silk slip dress with a draped neckline leans on a pale stone ledge.",
+      "note": "Cropped to 4:5 from the 2592x1944 original. There is a small pale embroidered motif where the right strap meets the dress; checked enlarged, it is not legible as a logo or text.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:silk-slip-dress"
+      ]
+    },
+    {
+      "id": "silk-slip-dress-02",
+      "file": "/images/products/silk-slip-dress-02.jpg",
+      "group": "products",
+      "width": 1296,
+      "height": 1620,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/woman-in-a-black-dress-poses-elegantly-bQ9Mmmohx-U",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "Closer view of the black slip dress: cowl neckline and thin straps.",
+      "derivedFrom": "silk-slip-dress-01",
+      "note": "Detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:silk-slip-dress"
+      ]
+    },
+    {
+      "id": "raglan-pique-sweater-02",
+      "file": "/images/products/raglan-pique-sweater-02.jpg",
+      "group": "products",
+      "width": 1286,
+      "height": 1607,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-wearing-a-beige-sweater-and-pants-rz3sw-8VNCw",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "Closer view of the oat sweater: pique stitch and the raglan seam at the shoulder.",
+      "derivedFrom": "hero-knit-set",
+      "note": "Detail crop of the hero frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:raglan-pique-sweater"
+      ]
+    },
+    {
+      "id": "collared-knit-polo-03",
+      "file": "/images/products/collared-knit-polo-03.jpg",
+      "group": "products",
+      "width": 1286,
+      "height": 1607,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/woman-in-beige-loungewear-looking-out-window-DSKNz2MZWW4",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "The oat knitted polo from the waist down: side vent, ribbed cuff and the matching trouser.",
+      "derivedFrom": "collared-knit-polo-01",
+      "note": "Second detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:collared-knit-polo"
+      ]
+    },
+    {
+      "id": "ruffle-neck-sweater-03",
+      "file": "/images/products/ruffle-neck-sweater-03.jpg",
+      "group": "products",
+      "width": 1286,
+      "height": 1607,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-wearing-a-white-ruffled-sweater-stands-indoors-1dOVR-g30-o",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "The ivory sweater's brushed surface, raglan seam and full sleeve.",
+      "derivedFrom": "ruffle-neck-sweater-01",
+      "note": "Second detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:ruffle-neck-sweater"
+      ]
+    },
+    {
+      "id": "sleeveless-silk-shirt-03",
+      "file": "/images/products/sleeveless-silk-shirt-03.jpg",
+      "group": "products",
+      "width": 1313,
+      "height": 1641,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-young-woman-in-a-white-sleeveless-shirt-g4nUezDE0Yg",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "The white silk shirt's button placket and curved hem.",
+      "derivedFrom": "sleeveless-silk-shirt-01",
+      "note": "Second detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:sleeveless-silk-shirt"
+      ]
+    },
+    {
+      "id": "raglan-pique-sweater-03",
+      "file": "/images/products/raglan-pique-sweater-03.jpg",
+      "group": "products",
+      "width": 1286,
+      "height": 1607,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-wearing-a-beige-sweater-and-pants-rz3sw-8VNCw",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "The oat sweater's pique stitch on the sleeve and the ribbed hem.",
+      "derivedFrom": "hero-knit-set",
+      "note": "Second detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:raglan-pique-sweater"
+      ]
+    },
+    {
+      "id": "gathered-silk-blouse-03",
+      "file": "/images/products/gathered-silk-blouse-03.jpg",
+      "group": "products",
+      "width": 1313,
+      "height": 1641,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/woman-in-satin-pajamas-posing-in-a-room-nGND8cvV2S4",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "The satin blouse's gathered cuff and elasticated hem over the matching trouser.",
+      "derivedFrom": "gathered-silk-blouse-01",
+      "note": "Second detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:gathered-silk-blouse"
+      ]
+    },
+    {
+      "id": "smocked-silk-dress-03",
+      "file": "/images/products/smocked-silk-dress-03.jpg",
+      "group": "products",
+      "width": 1313,
+      "height": 1641,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/a-woman-in-a-white-nightgown-stands-by-a-door-FUTZOelDXTI",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "The white dress's gathered cuff and the fall of the skirt.",
+      "derivedFrom": "smocked-silk-dress-01",
+      "note": "Second detail crop of the same frame.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "product:smocked-silk-dress"
+      ]
+    },
+    {
+      "id": "set-lookbook-landscape",
+      "file": "/images/set/lookbook-landscape.jpg",
+      "group": "set",
+      "width": 2400,
+      "height": 1500,
+      "source": "generated",
+      "license": "Own work",
+      "alt": "",
+      "note": "Still of the project's own gallery corridor at the lookbook's opening shot, captured from the canvas with the DOM hidden. Recapture after changing the corridor, its light or that shot.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "fallback:lookbook"
+      ]
+    },
+    {
+      "id": "set-lookbook-portrait",
+      "file": "/images/set/lookbook-portrait.jpg",
+      "group": "set",
+      "width": 1200,
+      "height": 2400,
+      "source": "generated",
+      "license": "Own work",
+      "alt": "",
+      "note": "Portrait crop of the same still, for phones.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "fallback:lookbook"
+      ]
+    },
+    {
+      "id": "about-interior",
+      "file": "/images/editorial/about-interior.jpg",
+      "group": "editorial",
+      "width": 2800,
+      "height": 1750,
+      "source": "unsplash",
+      "sourcePage": "https://unsplash.com/photos/woman-in-beige-loungewear-looking-out-window-DSKNz2MZWW4",
+      "photographer": "MANITO SILK",
+      "photographerUrl": "https://unsplash.com/@manitosilk_official",
+      "license": "Unsplash License",
+      "alt": "A woman in an oat knitted polo and matching trousers stands by a pale sofa in a wood-panelled room, looking towards a curtained window.",
+      "note": "The full frame behind collared-knit-polo-01, cropped to 16:10 and reduced from 3000x2250.",
+      "checkedAt": "2026-11-13",
+      "usedBy": [
+        "about"
+      ]
+    }
+  ]
+}

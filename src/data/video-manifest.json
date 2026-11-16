@@ -1,0 +1,61 @@
+{
+  "videos": [
+    {
+      "id": "wall-shadow",
+      "mp4": "/video/wall-shadow.mp4",
+      "webm": "/video/wall-shadow.webm",
+      "poster": "/video/wall-shadow.jpg",
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "fps": 24,
+      "source": "pexels",
+      "sourcePage": "https://www.pexels.com/video/plant-shadow-on-a-wall-4238473/",
+      "creator": "Kaboompics (Karolina Grabowska)",
+      "creatorUrl": "https://www.pexels.com/@karola-g/",
+      "license": "Pexels License",
+      "description": "The shadow of a tree swaying on a warm grey plaster wall.",
+      "note": "Seconds 1 to 9 of the 17.8 s original, 1080p, 24 fps, keyframe every 8 frames.",
+      "checkedAt": "2026-11-13",
+      "usedBy": ["home:hero"]
+    },
+    {
+      "id": "wall-twigs",
+      "mp4": "/video/wall-twigs.mp4",
+      "webm": "/video/wall-twigs.webm",
+      "poster": "/video/wall-twigs.jpg",
+      "width": 1920,
+      "height": 1080,
+      "duration": 8,
+      "fps": 24,
+      "source": "pexels",
+      "sourcePage": "https://www.pexels.com/video/plant-s-shadow-on-a-wall-4238475/",
+      "creator": "Kaboompics (Karolina Grabowska)",
+      "creatorUrl": "https://www.pexels.com/@karola-g/",
+      "license": "Pexels License",
+      "description": "Birch twigs hanging in front of the same plaster wall, their shadow behind them.",
+      "note": "Seconds 1 to 9 of the 14.9 s original, 1080p, 24 fps, keyframe every 8 frames. Same shoot as wall-shadow.",
+      "checkedAt": "2026-11-13",
+      "usedBy": ["home:hero"]
+    },
+    {
+      "id": "linen-folds",
+      "mp4": "/video/linen-folds.mp4",
+      "webm": "/video/linen-folds.webm",
+      "poster": "/video/linen-folds.jpg",
+      "width": 1920,
+      "height": 1080,
+      "duration": 6,
+      "fps": 24,
+      "source": "pexels",
+      "sourcePage": "https://www.pexels.com/video/close-up-of-a-cloth-being-crumpled-7233555/",
+      "creator": "Artem Podrez",
+      "creatorUrl": "https://www.pexels.com/@artempodrez/",
+      "license": "Pexels License",
+      "description": "Beige linen in close-up, its folds shifting.",
+      "note": "Seconds 1 to 7 of the 14 s original (2560x1440), scaled to 1080p, 24 fps, keyframe every 8 frames. Higher CRF than the others: detailed cloth is heavy to encode.",
+      "checkedAt": "2026-11-13",
+      "usedBy": ["home:statement"]
+    }
+  ]
+}

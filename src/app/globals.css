@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+/*
+  Design tokens.
+
+  Tailwind's default colours, radii, shadows, blurs, easings and animations are
+  reset, so only brand tokens exist. There is no `rounded-lg`, `shadow-md` or
+  `bg-purple-500` to reach for. Hex values are mirrored in src/lib/palette.ts
+  for WebGL; change both together.
+*/
+@theme {
+  --color-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+  --inset-shadow-*: initial;
+  --drop-shadow-*: initial;
+  --text-shadow-*: initial;
+  --blur-*: initial;
+  --animate-*: initial;
+  --ease-*: initial;
+
+  /* Colour */
+  --color-cream: #f4efe8;
+  --color-sand: #e6ddd0;
+  --color-taupe: #8a7b6a; /* rules and large text only: 3.6:1 on cream */
+  --color-taupe-ink: #6b5e50; /* small secondary text: 5.5:1 on cream */
+  --color-espresso: #2b2622;
+  --color-white: #ffffff;
+
+  /* Motion: one curve, slow and without overshoot */
+  --ease-quiet: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-quiet-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* Letter-spacing */
+  --tracking-label: 0.18em;
+  --tracking-display: -0.015em;
+  --tracking-catalog: -0.04em;
+  --tracking-wordmark: 0.12em;
+
+  /* Type scale */
+  --text-label: 0.6875rem;
+  --text-label--line-height: 1.5;
+  --text-body: 0.9375rem;
+  --text-body--line-height: 1.65;
+  --text-lede: clamp(1.125rem, 0.5vw + 1rem, 1.375rem);
+  --text-lede--line-height: 1.55;
+  --text-section: clamp(2rem, 2.6vw + 1.1rem, 3.5rem);
+  --text-section--line-height: 1.08;
+  --text-title: clamp(2.75rem, 5vw + 1rem, 6rem);
+  --text-title--line-height: 1;
+  --text-display: clamp(4.5rem, 14vw, 13rem);
+  --text-display--line-height: 0.88;
+  --text-catalog: clamp(3.25rem, 11vw, 9rem);
+  --text-catalog--line-height: 0.9;
+
+  /* Layout */
+  --spacing-page: clamp(1rem, 4vw, 4rem);
+  --spacing-section: clamp(7rem, 18vh, 15rem);
+  --spacing-header: 4.5rem;
+}
+
+/* Font families come from next/font CSS variables set on <html>. */
+@theme inline {
+  /* The current page background: cream, turning sand with --haze (below). */
+  --color-page: var(--page-bg);
+  --font-serif: var(--font-cormorant), "Times New Roman", serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+/*
+  Page tint. --haze runs from 0 (cream page) to 1 (sand) and is set from
+  scroll by ScrollSync, following the 3D set's haze, so the header and the
+  canvas change colour together. Use it through the `page` colour token
+  (`bg-page`). Kept outside @layer and @theme: it is a live value, not a
+  design token.
+*/
+:root {
+  --haze: 0;
+  --page-bg: color-mix(in srgb, var(--color-sand) calc(var(--haze) * 100%), var(--color-cream));
+}
+
+@layer base {
+  html {
+    background-color: var(--color-cream);
+    color: var(--color-espresso);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    min-height: 100svh;
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+  }
+
+  ::selection {
+    background-color: var(--color-espresso);
+    color: var(--color-cream);
+  }
+
+  :focus-visible {
+    outline: 1px solid var(--color-espresso);
+    outline-offset: 4px;
+  }
+}
+
+/*
+  Custom cursor (components/layout/Cursor.tsx). The class is only on <html>
+  while that component is running, which is desktop with a mouse. The system
+  cursor stays in text fields and inside anything marked data-cursor="native"
+  (the photo viewer, which uses the zoom cursors).
+*/
+html.has-cursor,
+html.has-cursor * {
+  cursor: none !important;
+}
+
+html.has-cursor input,
+html.has-cursor textarea {
+  cursor: text !important;
+}
+
+html.has-cursor select,
+html.has-cursor [data-cursor="native"],
+html.has-cursor [data-cursor="native"] * {
+  cursor: auto !important;
+}
+
+html.has-cursor [data-cursor="native"] .cursor-zoom-in {
+  cursor: zoom-in !important;
+}
+
+html.has-cursor [data-cursor="native"] .cursor-zoom-out {
+  cursor: zoom-out !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
